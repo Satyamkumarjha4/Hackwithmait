@@ -11,24 +11,26 @@ Welcome to the **Food Craving Satisfier Platform**! This web-based application i
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: React.js, Tailwind, Redux
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (for restaurant and recipe data)
-- **APIs**: Google Maps API (for location-based services), Zomato API (for restaurant listings and pricing)
-- **Deployment**: Deployed using Heroku
+- **Database**: MongoDB, Chromadb
+- **APIs**: Llama, Google Maps, Swiggy
+- **Deployment**: Vercel, Render
 
 ## How It Works
 
 1. **Enter Your Craving**: Users input the type of food they're craving into the platform.
-2. **Get Restaurant Recommendations**: The platform fetches nearby restaurants that serve the desired food using the Google Maps and Zomato APIs.
+2. **Get Restaurant Recommendations**: The platform fetches nearby restaurants that serve the desired food using the Google Maps and Swiggy APIs.
 3. **Check Pricing**: Users can see the prices of the dishes at different restaurants.
 4. **Cook at Home**: If the user chooses to cook, a recipe for the dish is provided, complete with ingredients and instructions.
 
 ## Future Enhancements
 
-- **User Accounts**: Allow users to save their favorite restaurants and recipes.
-- **Advanced Filtering**: Filter restaurant results based on price range, ratings, and cuisine.
-- **Meal Planning**: Suggest meal plans based on the user's food preferences and diet.
+- **User Accounts**: Allow users to save their favorite restaurants and recipes for easy access in the future.
+- **Advanced Filtering**: Filter restaurant results based on price range, ratings, and cuisine type, allowing for a more personalized experience.
+- **Meal Planning**: Suggest meal plans based on the user's food preferences and dietary restrictions.
+- **Subscriptions**: Introduce a subscription model for users to receive exclusive recipes, discounts at partner restaurants, and personalized meal planning services.
+- **Kitchen Awareness**: Implement a feature that allows users to input ingredients they have at home, helping them find recipes that utilize those ingredients and reduce food waste.
 
 ## Contribution Guidelines
 
